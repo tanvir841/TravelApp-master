@@ -17,7 +17,7 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var passWord: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-        btnFacebook.designBUtton(borderWidth: 0, borderColor: UIColor.clear)
+        btnFacebook.designBUtton(borderWidth: 1, borderColor: UIColor.clear)
         fullName.addRightViewImage(image: #imageLiteral(resourceName: "user") )
         eMail.addRightViewImage(image: #imageLiteral(resourceName: "mail"))
         passWord.addRightViewImage(image: #imageLiteral(resourceName: "pass"))

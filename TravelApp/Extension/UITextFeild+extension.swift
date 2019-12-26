@@ -11,7 +11,7 @@ import UIKit
 extension UITextField {
    
     func addRightViewImage(image: UIImage) {
-    let ImageView = UIImageView(frame: CGRect(x: 10, y: 10, width: 30, height: 30))
+    let ImageView = UIImageView(frame: CGRect(x: 7, y: 7, width: 20, height: 20))
         ImageView.image = image
         rightView = ImageView
         rightViewMode = .always
