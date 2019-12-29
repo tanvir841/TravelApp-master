@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F0B96AB23B87D4600A02C40 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0B96AA23B87D4600A02C40 /* homeViewController.swift */; };
+		0F0B96AD23B8AB3000A02C40 /* switchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0B96AC23B8AB3000A02C40 /* switchViewController.swift */; };
 		0F48D47623B09D430085CD00 /* UIView+design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F48D47523B09D430085CD00 /* UIView+design.swift */; };
 		0F48D47A23B0BC850085CD00 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F48D47923B0BC850085CD00 /* SignUpViewController.swift */; };
 		0F48D47C23B0BF490085CD00 /* UITextFeild+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F48D47B23B0BF490085CD00 /* UITextFeild+extension.swift */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F0B96AA23B87D4600A02C40 /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		0F0B96AC23B8AB3000A02C40 /* switchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = switchViewController.swift; sourceTree = "<group>"; };
 		0F48D47523B09D430085CD00 /* UIView+design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+design.swift"; sourceTree = "<group>"; };
 		0F48D47923B0BC850085CD00 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		0F48D47B23B0BF490085CD00 /* UITextFeild+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextFeild+extension.swift"; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 				0F48D47923B0BC850085CD00 /* SignUpViewController.swift */,
 				0F9C31CB23B48A720017DA6C /* SignInViewController.swift */,
 				0F9C31CD23B496840017DA6C /* TabBarViewController.swift */,
+				0F0B96AA23B87D4600A02C40 /* homeViewController.swift */,
+				0F0B96AC23B8AB3000A02C40 /* switchViewController.swift */,
 			);
 			path = Contorllers;
 			sourceTree = "<group>";
@@ -180,11 +186,13 @@
 			files = (
 				7269855023AF45180097BAE9 /* ViewController.swift in Sources */,
 				0F9C31D023B4B40B0017DA6C /* UITabViewController+Extension.swift in Sources */,
+				0F0B96AD23B8AB3000A02C40 /* switchViewController.swift in Sources */,
 				0F48D47A23B0BC850085CD00 /* SignUpViewController.swift in Sources */,
 				7269856023AF54050097BAE9 /* CustomBtn.swift in Sources */,
 				7269854C23AF45180097BAE9 /* AppDelegate.swift in Sources */,
 				7269856323AF61FF0097BAE9 /* UIButton+Design.swift in Sources */,
 				0F9C31CC23B48A720017DA6C /* SignInViewController.swift in Sources */,
+				0F0B96AB23B87D4600A02C40 /* homeViewController.swift in Sources */,
 				0F48D47C23B0BF490085CD00 /* UITextFeild+extension.swift in Sources */,
 				0F48D47623B09D430085CD00 /* UIView+design.swift in Sources */,
 				0F9C31CE23B496840017DA6C /* TabBarViewController.swift in Sources */,

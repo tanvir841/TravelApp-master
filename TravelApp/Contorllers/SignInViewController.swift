@@ -10,9 +10,11 @@ import UIKit
 
 class SignInViewController: UIViewController {
 
+    @IBOutlet weak var mail: UITextField!
+    @IBOutlet weak var pass: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
     
